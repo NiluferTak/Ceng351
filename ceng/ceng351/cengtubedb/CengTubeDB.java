@@ -10,7 +10,7 @@ public  class CengTubeDB implements ICengTubeDB{
 
     public void initialize(){
         try{
-            connection=DriverManager.getConnection("jdbc:mysql://144.122.71.168:3306/db231050?useSSL=false", "e231050", "6ebfb85a" );
+            connection=DriverManager.getConnection("****", "****", "****" );
 
         }
         catch (SQLException throwables){
